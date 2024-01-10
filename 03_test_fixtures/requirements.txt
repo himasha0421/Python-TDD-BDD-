@@ -1,0 +1,10 @@
+# Pin dependancies that might cause breakage
+Werkzeug==2.1.2
+SQLAlchemy==1.4.46
+
+# Dependencies for this lab
+Flask==2.1.2
+Flask-SQLAlchemy==2.5.1
+
+# Testing dependencies
+pylint==2.14.0
