@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-02-07T04:44:50.347Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qTo8aT8v68NnIB44eQiY" version="23.0.2" type="device">
+  <diagram name="Page-1" id="NY_3OmClSrpRFxLx2hVc">
+    <mxGraphModel dx="1360" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lREc-VPvf6stF7jFmA55-1" value="Unit Tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-2" value="Integration Tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365" y="250" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-3" value="System Tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="365" y="145" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-4" value="Acceptance Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="365" y="45" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-5" value="Test to verify that each individual module works." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-6" value="combine individual components and test as a group" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-7" value="test complete system" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-8" value="user level test" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="350" as="sourcePoint" />
+            <mxPoint x="442.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="250" as="sourcePoint" />
+            <mxPoint x="442.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lREc-VPvf6stF7jFmA55-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="145" as="sourcePoint" />
+            <mxPoint x="442.5" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
