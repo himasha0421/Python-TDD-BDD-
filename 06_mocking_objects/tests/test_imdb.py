@@ -80,3 +80,27 @@ class TestIMDbDatabase(TestCase):
         imdb = IMDb(apikey="k_12345678")
         results = imdb.movie_reviews(imdb_id="bad id")
         self.assertEqual(results, {})
+
+    @patch(target="models.imdb.requests.get")
+    def test_rating_search_by_id(self, imdb_mock):
+        """Test movie Ratings"""
+        # define the mock to mimic the request response
+        imdb_mock.return_value = Mock(
+            spec=Response,
+            status_code=200,
+            json=Mock(return_value=IMDB_DATA["GOOD_RATING"]),
+        )
+        imdb = IMDb("k_12345678")
+        results = imdb.movie_ratings("tt1375666")
+        self.assertIsNotNone(results)
+        self.assertEqual(results["title"], "Bambi")
+        self.assertEqual(results["filmAffinity"], 3)
+        self.assertEqual(results["rottenTomatoes"], 5)
+
+    @patch(target="models.imdb.requests.get")
+    def test_rating_search_by_id_failed(self, imdb_mock):
+        """Test rating search by id failed"""
+        imdb_mock.return_value = Mock(status_code=404)
+        imdb = IMDb(apikey="k_12345678")
+        results = imdb.movie_ratings(imdb_id="bad id")
+        self.assertEqual(results, {})
